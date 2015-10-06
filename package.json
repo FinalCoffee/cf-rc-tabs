@@ -1,0 +1,69 @@
+{
+  "name": "cf-rc-tabs",
+  "version": "0.0.1",
+  "description": "tabs ui component for react in cf",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-tabs"
+  ],
+  "files": [
+    "lib",
+    "assets/*.css"
+  ],
+  "main": "./lib/index",
+  "author": {
+    "name": "finalcoffee99@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/react-component/tabs.git"
+  },
+  "bugs": {
+    "url": "http://github.com/react-component/tabs/issues"
+  },
+  "licenses": "MIT",
+  "config": {
+    "port": 8002
+  },
+  "scripts": {
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "node --harmony node_modules/.bin/rc-server",
+    "pub": "rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "karma": "rc-tools run karma",
+    "saucelabs": "node --harmony node_modules/.bin/rc-tools run saucelabs",
+    "browser-test": "node --harmony node_modules/.bin/rc-tools run browser-test",
+    "browser-test-cover": "node --harmony node_modules/.bin/rc-tools run browser-test-cover"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "precommit-hook": "^1.0.7",
+    "rc-server": "3.x",
+    "rc-tools": "4.x",
+    "react": "0.13.x"
+  },
+  "precommit": [
+    "lint"
+  ],
+  "dependencies": {
+    "rc-animate": "1.x"
+  },
+  "gitHead": "7047effe3bfc7df274c6b4c88b0a60bb03d53fb0",
+  "_id": "cf-rc-tabs@0.0.1",
+  "_shasum": "9a7cf9a807db2dea3cc341afe1048859c7e4954e",
+  "_from": "cf-rc-tabs@*",
+  "_npmVersion": "3.2.2",
+  "_nodeVersion": "0.12.0",
+  "_npmUser": {
+    "name": "finalcoffee",
+    "email": "finalcoffee99@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "finalcoffee",
+      "email": "finalcoffee99@gmail.com"
+    }
+  ]
+}
